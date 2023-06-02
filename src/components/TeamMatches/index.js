@@ -44,8 +44,8 @@ class TeamMatches extends Component {
     return (
       <div>
         {isLoading ? (
-          <div data-testid="loader">
-            <Loader type="Oval" color="#ffffff" height={50} />
+          <div data-testid="loader" className="spinner">
+            <Loader type="Oval" color="#000000" height={50} />
           </div>
         ) : (
           <div className="team-banner-container">

@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 20px;
+  border-radius: 10px;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+}
+.sub-container {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.team-logo {
+  height: 250px;
+  width: 200px;
+}
+.result-container {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}

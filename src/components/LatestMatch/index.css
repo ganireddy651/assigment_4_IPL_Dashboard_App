@@ -1,22 +1,77 @@
 .latest-match-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #0f172a;
   padding: 20px;
   border-radius: 10px;
 }
+.container {
+  display: flex;
+}
 .sub-container {
   display: flex;
-  flex-direction: column;
-  color: #ffffff;
-  font-family: 'Bree Serif';
+  justify-content: space-around;
 }
 .ipl-team-logo {
-  height: 250px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 .result-container {
   color: #ffffff;
   font-family: 'Bree Serif';
+  margin-left: 500px;
+}
+.team {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+}
+.date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 600;
+}
+.venue {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+}
+.result-of-match {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+}
+.image-container-ipl {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  .latest-match-container {
+    width: 100%;
+  }
+  .ipl-team-logo {
+    height: 150px;
+    width: 150px;
+  }
+  .ipl-team-logo {
+    height: 80px;
+    width: 80px;
+  }
+  .result-container {
+    border-top: 1px solid #ffffff;
+    margin-left: 0;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .sub-container {
+    justify-content: space-between;
+  }
+  .image-container-ipl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
